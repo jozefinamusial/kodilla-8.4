@@ -1,7 +1,5 @@
-var a = 10,
-    h = 6,
-    triangleArea;
-    
-triangleArea = a * h / 2;
+var a = prompt('wpisz a');
+var h = prompt('wpisz h');
+var triangleArea = a * h / 2;
 
 console.log('Pole trójkąta o podstawie a: ' + a + ' i wysokości h: ' + h + ' wynosi: ' + triangleArea);
